@@ -4,7 +4,7 @@ import { RiEmotionHappyFill } from "react-icons/ri";
 import { MdOutlineSentimentNeutral } from "react-icons/md";
 import { FaSadTear } from "react-icons/fa";
 
-export const Statistics = (good,neutral,bad,total,positivePercentage) => {
+export const Statistics = ({good,neutral,bad,total,positivePercentage}) => {
     return (
         <div className={css.divStatistics}>
         <p className={css.labelStat}>
